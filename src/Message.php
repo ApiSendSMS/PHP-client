@@ -2,6 +2,8 @@
 
 namespace ApiSendSms;
 
+use ApiSendSms\Exceptions\InvalidMessagePriorityException;
+
 class Message
 {
 	const PRIORITY_LOW = "LOW";

@@ -2,6 +2,7 @@
 
 namespace ApiSendSms;
 
+use ApiSendSms\Exceptions\ApiSendSMSException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
 
