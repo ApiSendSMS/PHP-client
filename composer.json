@@ -1,0 +1,23 @@
+{
+    "name": "apisendsms/php-client",
+    "type": "library",
+    "description": "This class is for easy connect to ApiSendSMS.com for sending SMS",
+    "keywords": ["sms", "gateway", "android phone", "php"],
+    "homepage": "https://apisendsms.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "David Katolický",
+            "email": "info@apisendsms.com",
+            "homepage": "http://apisendsms.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": { "ApiSendSms\\": "src/" }
+    }
+}
