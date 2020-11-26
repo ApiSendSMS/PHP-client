@@ -44,6 +44,23 @@ class Message
 		return $this;
 	}
 
+	/**
+	 * @return Message
+	 */
+	public function clearRecipients(): Message
+	{
+		$this->recipients = [];
+	}
+
+	/**
+	 * @param array $recipients
+	 * @return Message
+	 */
+	public function setRecipients(array $recipients): Message
+	{
+		$this->recipients = $recipients;
+	}
+
 
 	/**
 	 * @return mixed
