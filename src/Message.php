@@ -50,6 +50,7 @@ class Message
 	public function clearRecipients(): Message
 	{
 		$this->recipients = [];
+		return $this;
 	}
 
 	/**
@@ -59,6 +60,7 @@ class Message
 	public function setRecipients(array $recipients): Message
 	{
 		$this->recipients = $recipients;
+		return $this;
 	}
 
 
